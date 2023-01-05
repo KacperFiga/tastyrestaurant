@@ -14,7 +14,7 @@
     <title>Tasty restaurant</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="home">
       <section>Tasty restaurant</section>
       <section class="menu-icon">
         <?xml version="1.0" ?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
@@ -54,10 +54,18 @@
         </svg>
       </section>
       <ul class="navigation__content">
-        <li class="navigation__content__option">Home</li>
-        <li class="navigation__content__option">Menu</li>
-        <li class="navigation__content__option">Head Chef</li>
-        <li class="navigation__content__option">Contact</li>
+        <li class="navigation__content__option">
+          <a href="/"> Home </a>
+        </li>
+        <li class="navigation__content__option">
+          <a href="#tasty"> Menu </a>
+        </li>
+        <li class="navigation__content__option">
+          <a href="#chef"> Head Chef </a>
+        </li>
+        <li class="navigation__content__option">
+          <a href="#contact"> Contact </a>
+        </li>
       </ul>
     </nav>
     <section class="hero">
@@ -107,7 +115,7 @@
             loading="lazy"
           />
         </section>
-        <section class="tastySection__text">
+        <section class="tastySection__text" id="tasty">
           T
           <br />
           A
@@ -185,7 +193,7 @@
         <section class="delivery__img"></section>
       </section>
       <section class="break"></section>
-      <section class="chef">
+      <section class="chef" id="chef">
         <section class="chef__img"></section>
         <section class="chef__main">
           <h2 class="chef__main__h2">JOHNNY COCHRAN</h2>
@@ -226,7 +234,7 @@
           loading="lazy"
         />
       </section>
-      <section class="contact">
+      <section class="contact" id="contact">
         <section class="contact__container">
           <section class="contact__content">
             <section class="contact__content__social">

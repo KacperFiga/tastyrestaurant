@@ -39,6 +39,8 @@
 
 .about {
   margin: 50px;
+  margin-bottom: 0;
+  padding-bottom: 50px;
   &__description {
     &__h2 {
       font-size: 1.8em;
@@ -169,6 +171,7 @@
   display: grid;
   grid-template-columns: 9fr 2fr;
   margin: 40px -50px;
+  margin-bottom: 0;
   &__text {
     color: rgb(253, 219, 63);
     text-align: center;

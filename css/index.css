@@ -95,6 +95,8 @@ body {
 
 .about {
   margin: 50px;
+  margin-bottom: 0;
+  padding-bottom: 50px;
 }
 .about__description__h2 {
   font-size: 1.8em;
@@ -213,6 +215,7 @@ body {
   display: grid;
   grid-template-columns: 9fr 2fr;
   margin: 40px -50px;
+  margin-bottom: 0;
 }
 .contact__text {
   color: rgb(253, 219, 63);
@@ -352,6 +355,8 @@ body {
   }
   .about {
     margin: 100px 10%;
+    margin-bottom: 0;
+    padding-bottom: 100px;
   }
   .about__description {
     display: flex;

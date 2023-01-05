@@ -122,6 +122,15 @@
     }
   }
 }
+.break {
+  width: calc(100% + 100px);
+  height: 700px;
+  background-image: url(../assets/breakImg.png);
+  background-position: center;
+  background-size: cover;
+  margin-left: -50px;
+  margin-top: 30px;
+}
 
 .desktop_break {
   display: none;

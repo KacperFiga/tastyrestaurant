@@ -78,6 +78,12 @@
     }
   }
 
+  .break {
+    margin-top: 100px;
+    margin-left: -150px;
+    width: calc(100% + 300px);
+  }
+
   .mobile_break {
     display: none;
   }

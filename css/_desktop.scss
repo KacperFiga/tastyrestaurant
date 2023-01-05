@@ -96,6 +96,22 @@
     }
   }
 
+  .delivery_sf {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: -50px;
+    &__h2 {
+      line-height: 150%;
+      font-size: 1.8em;
+      margin-bottom: 150px;
+    }
+    &__img {
+      transform: translateY(-150px);
+      width: 35%;
+    }
+  }
   .mobile_break {
     display: none;
   }

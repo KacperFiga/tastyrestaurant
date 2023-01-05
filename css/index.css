@@ -1,5 +1,10 @@
-@import url(_reset.scss);
-@import url(_other.scss);
-@import url(_assets.scss);
-@import url(_mobile.scss);
-@import url(_desktop.scss);/*# sourceMappingURL=index.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+.hero {
+  background-image: url(../assets/backgroundHero.png);
+}/*# sourceMappingURL=index.css.map */

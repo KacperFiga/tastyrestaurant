@@ -60,6 +60,24 @@
     }
   }
 
+  .delivery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+    &__info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      &__h2 {
+        font-size: 2em;
+      }
+      &__img {
+        width: 50%;
+        height: 50%;
+      }
+    }
+  }
+
   .mobile_break {
     display: none;
   }

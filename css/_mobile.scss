@@ -11,6 +11,7 @@
   color: #a5a2a2;
   font-size: 1.5em;
   backdrop-filter: blur(5px);
+  z-index: 1;
 }
 
 .hero {
@@ -19,7 +20,6 @@
   background-image: url(../assets/backgroundHero.png);
   background-position: 50%;
   background-size: cover;
-  color: #efefef;
   &__content {
     position: absolute;
     top: 48%;
@@ -32,8 +32,81 @@
       bottom: 5%;
       right: 10%;
       text-transform: uppercase;
-      color: rgb(253, 219, 63);
       font-size: 5em;
     }
   }
+}
+
+.about {
+  margin: 50px;
+  &__description {
+    &__h2 {
+      font-size: 1.8em;
+    }
+    &__content {
+      &__paragraph {
+        margin-top: 90px;
+      }
+    }
+  }
+}
+
+.tastySection {
+  &__images {
+    &__img {
+      background-size: cover;
+      background-position: 50%;
+      width: 100%;
+      margin: 40px 0;
+    }
+  }
+
+  &__text {
+    color: rgb(253, 219, 63);
+    text-align: center;
+    font-size: 5em;
+    font-weight: bold;
+  }
+}
+
+.located {
+  background-color: #7b5300;
+  margin-left: -50px;
+  display: grid;
+  gap: 50px;
+  &__content {
+    color: rgb(221, 218, 214);
+    padding: 0 30px;
+    &__third {
+      background-image: url("../assets/oats.png");
+      background-position: 50%;
+      background-size: cover;
+      height: 600px;
+    }
+  }
+  &__h2 {
+    color: #efefef;
+    padding: 35px 0;
+  }
+  &__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    text-decoration: none;
+    color: rgb(253, 219, 63);
+    width: 125px;
+    height: 30px;
+    font-weight: bold;
+    margin-top: 45px;
+    font-size: 0.8em;
+    padding: 10px;
+  }
+}
+
+.desktop_break {
+  display: block;
+}
+.mobile_break {
+  display: none;
 }

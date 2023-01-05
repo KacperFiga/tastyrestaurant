@@ -84,6 +84,18 @@
     width: calc(100% + 300px);
   }
 
+  .chef {
+    grid-template-rows: unset;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 610px;
+    &__main,
+    &__description {
+      margin: auto;
+      margin-top: 230px;
+      line-height: 20px;
+    }
+  }
+
   .mobile_break {
     display: none;
   }

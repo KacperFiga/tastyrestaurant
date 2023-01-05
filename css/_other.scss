@@ -1,7 +1,7 @@
 .header__content {
   color: rgb(253, 219, 63);
 }
-.btn {
+@mixin btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,10 +11,23 @@
   width: 125px;
   height: 30px;
   font-weight: bold;
-  margin-top: 20px;
+  margin: 22px 0;
   font-size: 0.8em;
   padding: 10px;
 }
+
+.black_btn {
+  @include btn;
+  background-color: #000;
+  color: rgb(253, 219, 63);
+}
+
+.yellow_btn {
+  @include btn;
+  color: #efefef;
+  background-color: #7b5300;
+}
+
 .center {
   margin: 0 auto;
 }

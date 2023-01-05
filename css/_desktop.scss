@@ -1,0 +1,12 @@
+@media screen and (min-width: 924px) {
+  .hero__content {
+    height: 90%;
+    top: 10%;
+    &__motto {
+      margin-left: 30px;
+    }
+    &__first {
+      bottom: 10%;
+    }
+  }
+}
